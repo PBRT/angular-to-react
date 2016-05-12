@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "sofia";
+  src:url("font/SofiaProLight.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "sofia" !important;
+}
+
+.navbar {
+  background-color: #2980b9;
+  color: #ecf0f1;
+  padding: 20px 15px;
+  display: flex;
+}
+
+.navbar-logo {
+  flex: 1;
+}
+
+.navbar-item {
+  margin: 10px;
+}
+
+#view {
+  text-align: center;
+  margin: 30;
+}
+
+a {
+  color: #ecf0f1;
+  margin: 0px 10px;
+}

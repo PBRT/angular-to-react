@@ -1,0 +1,56 @@
+{
+  "name": "angular-to-react",
+  "version": "1.0.0",
+  "description": "Go from Angular with UI Router to React and React Router",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PBRT/angular-to-react.git"
+  },
+  "keywords": [
+    "React",
+    "Angular",
+    "ReactJS",
+    "AngularJS",
+    "ui-router",
+    "UI",
+    "Router",
+    "react-router",
+    "refactoring"
+  ],
+  "author": "PBRT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PBRT/angular-to-react/issues"
+  },
+  "homepage": "https://github.com/PBRT/angular-to-react#readme",
+  "dependencies": {
+    "angular": "1.5.5",
+    "angular-ui-router": "0.2.18",
+    "babel-core": "6.8.0",
+    "babel-loader": "6.2.4",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-preset-es2015": "6.6.0",
+    "babel-preset-react": "6.5.0",
+    "colors": "1.1.2",
+    "compression": "1.6.1",
+    "css-loader": "0.23.1",
+    "ejs": "2.4.1",
+    "es6-promise": "3.2.1",
+    "exports-loader": "0.6.3",
+    "express": "4.13.4",
+    "file-loader": "0.8.5",
+    "html-loader": "0.4.3",
+    "imports-loader": "0.6.5",
+    "jquery": "2.2.3",
+    "path": "0.12.7",
+    "style-loader": "0.13.1",
+    "webpack": "1.13.0",
+    "webpack-dev-server": "1.14.1",
+    "whatwg-fetch": "1.0.0"
+  }
+}
