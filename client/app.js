@@ -4,8 +4,11 @@ import 'angular-ui-router'
 // Load style
 require('./styles/app.css')
 
+// ngReact
+require('ngreact')
+
 // Init
-angular.module('theApp', ['ui.router'])
+angular.module('theApp', ['ui.router', 'react'])
 
 const Routes = {
   feed: require('./pages/feed/feed.module.js'),

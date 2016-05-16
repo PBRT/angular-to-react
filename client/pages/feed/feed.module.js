@@ -1,15 +1,16 @@
+import angular from 'angular'
+
 var feedModule = /* @ngInject */ {
   url: '/feed',
   templateProvider: provider => provider.template,
-  controllerProvider: provider => provider.controller,
   resolve: /* @ngInject */ {
     provider ($q) {
       let deferred = $q.defer()
       require.ensure(
-        ['./feed.controller.js', './feed.html'],
+        ['./feed.html', './feed-comp.jsx'],
         require => {
+          angular._factory('FeedComp', require('./feed-comp.jsx'))
           deferred.resolve({
-            controller: require('./feed.controller.js'),
             template: require('./feed.html')
           })
         })
